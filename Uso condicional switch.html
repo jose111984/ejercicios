@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        /* let opcion=prompt("Introduce la opción deseada (1,2,3)");
+
+        switch (opcion){
+
+            case "1":
+                document.write("Has escogido la opción 1");
+                break;
+            case "2":
+                document.write("Has escogido la opción 2");
+                break;    
+            case "3":
+                document.write("Has escogido la opción 3");
+                break;
+
+            default:
+                document.write("Opción incorrecta");
+
+        }
+
+        */
+
+        /* 
+        let opcion=parseInt(prompt("Introduce la opción deseada (1,2,3)"));
+
+        switch (opcion){
+
+            case 1:
+                document.write("Has escogido la opción 1");
+                break;
+            case 2:
+                document.write("Has escogido la opción 2");
+                break;    
+            case 3:
+                document.write("Has escogido la opción 3");
+                break;
+
+            default:
+                document.write("Opción incorrecta");
+
+        }
+        */
+
+        let nota=prompt("Introduce la nota del examen");
+
+    switch (true){
+
+        case nota<5:
+            document.write("Insuficiente");
+            break;
+       
+        case nota<6:
+        document.write("Suficiente");
+        break;    
+        
+        case nota<7:
+        document.write("Bien");
+        break;
+        
+        case nota<9:
+        document.write("Notable");
+        break;
+        
+        case nota<=10:
+        document.write("Sobresaliente");
+        break;
+    default:
+        document.write("Nota incorrecta");
+    }
+
+    </script>     
+</body>
+</html>
